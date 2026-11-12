@@ -1,0 +1,34 @@
+body{
+    background-color: #1e1515;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#login, #register{
+    background-color: #c72828;
+    display: block;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+}
+input{
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 80%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+a{
+    display: block;
+    margin-top: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+#message{
+    color: #790a0a;
+    margin-top: 20px;
+    text-align: center;
+}
